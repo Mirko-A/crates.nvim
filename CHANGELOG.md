@@ -6,6 +6,7 @@
 - deprecate the nvim-cmp, coq_nvim, and null-ls sources (#172)
 
 ### Bug Fixes
+- crate name completion errors (#179)
 - missing crates in completion (#170)
 - prevent lsp request from beeing endlesly pending (#167)
 - handle winborder:get return correctly (#165)
