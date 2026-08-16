@@ -657,7 +657,7 @@ function M.run_queued_jobs()
     -- Prioritise crate searches
     if #M.search_queue > 0 then
         local job = table.remove(M.search_queue, 1)
-        fetch_search(job.name, job.search_callbacks)
+        fetch_search(job.name, job.callbacks)
         return
     end
 
